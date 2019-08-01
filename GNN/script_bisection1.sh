@@ -1,0 +1,26 @@
+cd ./maxCut/GNN/
+python main.py \
+--path_logger './maxCut/GNN/' \
+--path_gnn './maxCut/GNN/output/' \
+--path_output './maxCut/GNN/output/' \
+--filename_existing_gnn '' \
+--generative_model 'RegularGraph' \
+--num_examples_train 5000 \
+--num_examples_test 1000 \
+--num_ysampling 10000 \
+--loss_method 'policy' \
+--problem 'max' \
+--problem0 'Cut' \
+--num_nodes 100 \
+--edge_density 0.05 \
+--Lambda 10 \
+--LambdaIncRate 0.05 \
+--batch_size 1 \
+--mode 'train' \
+--clip_grad_norm 40.0 \
+--num_features 10 \
+--num_layers 30 \
+--J 3 \
+--print_freq 1 \
+--num_classes 2 \
+--lr 0.004
