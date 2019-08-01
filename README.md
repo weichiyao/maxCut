@@ -1,2 +1,3 @@
 # maxCut
-# maxCut
+
+This folder provides the codes to run Extremal Optimization (EO), semi-definite programming (SDP) and Graph Neural Network (GNN) on maxCut problem.
